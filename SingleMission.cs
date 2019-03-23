@@ -10,5 +10,18 @@ namespace Excercise_1
     {
         // implement constructors and funcs
         // implement interface finctions
+        private DoubleToDouble Func { get; set; }
+
+        public double Calculate(double value)
+        {
+            return this.Func(value);
+        }
+
+        public SingleMission(DooubleToDouble func, String name)
+        {
+            this.Type = "Single";
+            this.Func = func;
+            this.Name = name;
+        }
     }
 }
