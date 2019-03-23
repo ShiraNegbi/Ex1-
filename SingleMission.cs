@@ -8,6 +8,7 @@ namespace Excercise_1
 {
     public class SingleMission : IMission
     {
-      // implement constructors and funcs
+        // implement constructors and funcs
+        // implement interface finctions
     }
 }
